@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92977bb7-8f0d-4d5c-a21f-70c7f4bb214b" name="Changes" comment="Controller start">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hu/tothmih/demo/service/CoordinatorService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hu/tothmih/demo/controller/CoordinatorAPIController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/tothmih/demo/controller/CoordinatorAPIController.java" afterDir="false" />
+    <list default="true" id="92977bb7-8f0d-4d5c-a21f-70c7f4bb214b" name="Changes" comment="Service update">
+      <change afterPath="$PROJECT_DIR$/src/main/java/hu/tothmih/demo/controller/DepartmentAPIController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hu/tothmih/demo/controller/CoordinatorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/tothmih/demo/controller/CoordinatorController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +152,21 @@
       <option name="project" value="LOCAL" />
       <updated>1665834792541</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Service start">
+      <created>1665835458025</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1665835458025</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Service update">
+      <created>1665836044229</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1665836044229</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -175,6 +189,8 @@
     <MESSAGE value="repo/interface + h2 is complete" />
     <MESSAGE value="update" />
     <MESSAGE value="Controller start" />
-    <option name="LAST_COMMIT_MESSAGE" value="Controller start" />
+    <MESSAGE value="Service start" />
+    <MESSAGE value="Service update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Service update" />
   </component>
 </project>

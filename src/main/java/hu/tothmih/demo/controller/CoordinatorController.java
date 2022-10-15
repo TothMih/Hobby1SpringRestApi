@@ -16,7 +16,7 @@ public class CoordinatorController {
     public ModelAndView showCoordinatorList(){
         List<Coordinator> coordinators= service.getAllCoordinator();
         ModelAndView mav=new ModelAndView("coordinators/index");
-        mav.addAllObjects("coordinators",coordinators);
+        mav.addAllObjects("coordinators", coordinators);
 
         return mav;
     }
