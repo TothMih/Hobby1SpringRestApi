@@ -23,7 +23,7 @@ public class CoordinatorAPIController {
         return coordinator.getId();
     }
 
-    @PutMapping(value = "/api/subject", name ="Update coordinator")
+    @PutMapping(value = "/coordinator", name ="Update coordinator")
     private Coordinator update(@RequestBody Coordinator coordinator){
         service.saveOrUpdate(coordinator);
         return coordinator;
