@@ -1,6 +1,7 @@
 package hu.tothmih.demo.controller;
 
 import hu.tothmih.demo.model.Coordinator;
+import hu.tothmih.demo.service.CoordinatorService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.servlet.ModelAndView;

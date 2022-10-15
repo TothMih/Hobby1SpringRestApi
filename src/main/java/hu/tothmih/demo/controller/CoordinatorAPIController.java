@@ -1,6 +1,7 @@
 package hu.tothmih.demo.controller;
 
 import hu.tothmih.demo.model.Coordinator;
+import hu.tothmih.demo.service.CoordinatorService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -19,12 +20,12 @@ public class CoordinatorAPIController {
     @PostMapping(value = "/coordinator",name = "Save coordinator")
     private long saveCoordinator(@RequestBody Coordinator coordinator){
         service.saveOrUpdate(coordinator);
-        return coordinator;
+        return coordinator.getId();
     }
 
     @PutMapping(value = "/api/subject", name ="Update coordinator")
     private Coordinator update(@RequestBody Coordinator coordinator){
-        service.saveOrUpdate(Coordinator);
+        service.saveOrUpdate(coordinator);
         return coordinator;
     }
 
