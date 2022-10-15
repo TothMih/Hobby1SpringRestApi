@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92977bb7-8f0d-4d5c-a21f-70c7f4bb214b" name="Changes" comment="Service update">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hu/tothmih/demo/controller/DepartmentAPIController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hu/tothmih/demo/controller/CoordinatorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/tothmih/demo/controller/CoordinatorController.java" afterDir="false" />
-    </list>
+    <list default="true" id="92977bb7-8f0d-4d5c-a21f-70c7f4bb214b" name="Changes" comment="Controller update" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -166,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665836044229</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Controller update">
+      <created>1665836686745</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1665836686745</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -191,6 +195,7 @@
     <MESSAGE value="Controller start" />
     <MESSAGE value="Service start" />
     <MESSAGE value="Service update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Service update" />
+    <MESSAGE value="Controller update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Controller update" />
   </component>
 </project>
